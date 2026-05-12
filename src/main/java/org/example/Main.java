@@ -7,9 +7,8 @@ public class Main {
     private final static LemonadeStand lemonadeStand = new LemonadeStand();
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        mainMenu();
     }
-
     public static void mainMenu() {
         while (true) {
             System.out.println("--------------------------------");
